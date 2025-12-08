@@ -23,5 +23,5 @@ root
   |_ README.md
   |_ sample-cases/
 |_ README.md
-|_ CONTRIBUTING.md
+|_ .gitignore
 ```
