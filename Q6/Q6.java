@@ -1,7 +1,6 @@
 import java.util.Random;
 import java.util.Scanner;
 
-
 public class Q6 {
     public static void main(String[] args) {
         int[][] board = getGameBoard();
@@ -213,7 +212,7 @@ public class Q6 {
             int row = random.nextInt(4);
             int col = random.nextInt(4);
             if (board[row][col] == 0) {
-                board[row][col] = new int[] {2, 4, 8}[random.nextInt(3)];
+                board[row][col] = new int[] {2, 4}[random.nextInt(2)];
                 System.out.printf("\nNew element %d at position %d, %d\n", board[row][col], row, col);
                 return;
             }
